@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     # My apps
-    'pessoas',
+    'backend',
 ]
 
 MIDDLEWARE = [
