@@ -5,7 +5,4 @@
         "editor.defaultFormatter": "ms-python.python",
         "editor.formatOnSave": true,
     },
-    "python.linting.flake8Args": [
-        "--exclude=settings.py"
-    ],
 }
