@@ -169,7 +169,7 @@ class Pessoa(models.Model):
         blank=False,
         null=False
     )
-    id_user = models.OneToOneField(
+    id_user = models.ForeignKey(
         User,
         on_delete=models.PROTECT,
         blank=False,
@@ -218,6 +218,7 @@ class Ocorrencia(models.Model):
     )
 
     class Meta:
+        db_table = "ocorrencias"
         verbose_name = "Ocorrência"
 
     def __str__(self):
