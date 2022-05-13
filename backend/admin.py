@@ -25,11 +25,12 @@ class EnderecoAdmin(admin.ModelAdmin):
 @admin.register(Conta)
 class ContaAdmin(admin.ModelAdmin):
 
-    def conta_e_agencia(obj):
+    @admin.display(description='Conta/Agência')
+    def conta_e_agencia(self, obj):
         return f'{obj.conta}/{obj.agencia}'
 
-    list_display = [conta_e_agencia, 'tp_conta', 'banco']
-    list_display_links = [conta_e_agencia, 'tp_conta', 'banco']
+    list_display = ['conta_e_agencia', 'tp_conta', 'banco']
+    list_display_links = ['conta_e_agencia', 'tp_conta', 'banco']
 
 
 @admin.register(Pessoa)
