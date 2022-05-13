@@ -29,7 +29,6 @@ Acesse [aqui](https://abacaxiguy-lccv.ml).
 -   Docker Compose
 -   Docker Engine ou Docker Desktop
 
-
 ---
 
 ## 🚀 Modo de uso
@@ -42,7 +41,13 @@ Após criado, rode o Docker Compose:
   docker-compose up -d --build
 ```
 
-E pronto 🥳️! Seu docker foi inicializado e está rodando em http://localhost:8000/
+Quando criado a imagem, rode:
+
+```
+  docker-compose up --build
+```
+
+E pronto 🥳️! Seu docker foi inicializado e está rodando em http://localhost:8000/api/
 
 ---
 
@@ -51,6 +56,7 @@ E pronto 🥳️! Seu docker foi inicializado e está rodando em http://localhos
 -   [Insomnia](insomnia.json) 🧿️
 
 ---
+
 ## 📝 Licença
 
 Copyright © 2022 [João Lucas](https://github.com/abacaxiguy).<br />
