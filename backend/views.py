@@ -17,8 +17,8 @@ class ExceptDeleteProtectedMixin:
 
     def destroy(self, req, *args, **kwargs):
         errors = {
-            "error":
-            "Cannot delete this instance because it has been used elsewhere."
+            "errors":
+            ["Cannot delete this instance because it has been used elsewhere."]
         }
 
         try:
