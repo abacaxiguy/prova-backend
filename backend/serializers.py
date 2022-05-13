@@ -1,6 +1,7 @@
 from rest_framework import serializers
-from backend.models import Uf, Cidade, Endereco, Ocorrencia, Pessoa, Conta
 from django.contrib.auth.models import User
+
+from .models import Uf, Cidade, Endereco, Ocorrencia, Pessoa, Conta
 
 
 class UfSerializer(serializers.ModelSerializer):
