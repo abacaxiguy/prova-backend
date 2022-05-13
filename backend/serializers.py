@@ -67,7 +67,7 @@ class OcorrenciaSerializer(serializers.ModelSerializer):
     def to_representation(self, instance):
         ret = super(OcorrenciaSerializer, self).to_representation(instance)
 
-        ret['Pessoa'] = PessoaSerializer(instance.id_pessoa).data
+        ret['Pessoa'] = instance.id_pessoa.nome
 
         return ret
 
