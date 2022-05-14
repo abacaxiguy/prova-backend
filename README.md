@@ -18,9 +18,20 @@
 
 ## 🌎 Online!
 
-Essa api está no ar neste momento!
+Essa [api está no ar](https://abacaxiguy-lccv.ml) neste momento!<br>
+Deploy feito na [Digital Ocean 🌊](https://www.digitalocean.com/) com Gunicorn 🦄 e Nginx 🟩!
 
-Acesse [aqui](https://abacaxiguy-lccv.ml).
+Se você quiser entrar na área administrativa desse servidor,<br>
+
+<details>
+  <summary><b>As credenciais são essas:</b></summary>
+
+```
+Usuário: admin
+Senha: root12345
+```
+
+</details>
 
 ---
 
