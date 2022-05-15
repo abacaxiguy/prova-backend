@@ -1,3 +1,4 @@
+from django.http import JsonResponse
 from rest_framework import response
 from rest_framework.viewsets import ModelViewSet
 from django.db.models import ProtectedError
@@ -8,6 +9,12 @@ from .models import Uf, Cidade, Endereco, Conta, Ocorrencia, Pessoa
 
 from .serializers import UserSerializer, UfSerializer, CidadeSerializer, \
     EnderecoSerializer, ContaSerializer, OcorrenciaSerializer, PessoaSerializer
+
+
+def api_home(request, *args, **kwargs):
+    return JsonResponse({
+        "Home": "Prova back-end LCCV API"
+    })
 
 
 class ExceptDeleteProtectedMixin:
