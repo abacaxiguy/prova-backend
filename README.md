@@ -33,6 +33,24 @@ Senha: root12345
 
 </details>
 
+<details>
+  <summary><b>Confira aqui as rotas da api:</b></summary>
+
+<br>
+
+-   [/admin](https://abacaxiguy-lccv.ml/admin)<br>
+-   [/api/ufs](https://abacaxiguy-lccv.ml/api/ufs)<br>
+-   [/api/cidades](https://abacaxiguy-lccv.ml/api/cidades)<br>
+-   [/api/enderecos](https://abacaxiguy-lccv.ml/api/enderecos)<br>
+-   [/api/pessoas](https://abacaxiguy-lccv.ml/api/pessoas)<br>
+-   [/api/ocorrencias](https://abacaxiguy-lccv.ml/api/ocorrencias)<br>
+-   [/api/contas](https://abacaxiguy-lccv.ml/api/contas)<br>
+-   [/api/users](https://abacaxiguy-lccv.ml/api/users)
+
+<br>
+
+</details>
+
 ---
 
 ## 🛠️ Requisitos
