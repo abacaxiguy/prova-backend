@@ -21,6 +21,8 @@ class CidadeSerializer(serializers.ModelSerializer):
 
         ret['UF'] = UfSerializer(instance.id_uf).data
 
+        ret.pop('id_uf', None)
+
         return ret
 
 
@@ -33,6 +35,8 @@ class EnderecoSerializer(serializers.ModelSerializer):
         ret = super(EnderecoSerializer, self).to_representation(instance)
 
         ret['Cidade'] = CidadeSerializer(instance.id_cidade).data
+
+        ret.pop('id_cidade', None)
 
         return ret
 
@@ -56,6 +60,10 @@ class PessoaSerializer(serializers.ModelSerializer):
         ret['Conta'] = ContaSerializer(instance.id_conta).data
         ret['Endereço'] = EnderecoSerializer(instance.id_endereco).data
 
+        ret.pop('id_endereco', None)
+        ret.pop('id_conta', None)
+        ret.pop('id_user', None)
+
         return ret
 
 
@@ -68,6 +76,8 @@ class OcorrenciaSerializer(serializers.ModelSerializer):
         ret = super(OcorrenciaSerializer, self).to_representation(instance)
 
         ret['Pessoa'] = instance.id_pessoa.nome
+
+        ret.pop('id_pessoa', None)
 
         return ret
 

@@ -16,9 +16,9 @@
 
 ---
 
-## 🌎 Online!
+## 🌎 Online! (deprecated)
 
-Essa [api está no ar](https://abacaxiguy-lccv.ml) neste momento!<br>
+Essa api <del>[está no ar](https://google.com)</del> <b>NÃO está no ar</b> neste momento!<br>
 Deploy feito na [Digital Ocean 🌊](https://www.digitalocean.com/) com Gunicorn 🦄 e Nginx 🟩!
 
 Se você quiser entrar na área administrativa desse servidor,<br>
