@@ -38,14 +38,14 @@ Senha: root12345
 
 <br>
 
--   [/admin](https://abacaxiguy-lccv.ml/admin)<br>
--   [/api/ufs](https://abacaxiguy-lccv.ml/api/ufs)<br>
--   [/api/cidades](https://abacaxiguy-lccv.ml/api/cidades)<br>
--   [/api/enderecos](https://abacaxiguy-lccv.ml/api/enderecos)<br>
--   [/api/pessoas](https://abacaxiguy-lccv.ml/api/pessoas)<br>
--   [/api/ocorrencias](https://abacaxiguy-lccv.ml/api/ocorrencias)<br>
--   [/api/contas](https://abacaxiguy-lccv.ml/api/contas)<br>
--   [/api/users](https://abacaxiguy-lccv.ml/api/users)
+-   [/admin](http://localhost:8000/admin)<br>
+-   [/api/ufs](http://localhost:8000/api/ufs)<br>
+-   [/api/cidades](http://localhost:8000/api/cidades)<br>
+-   [/api/enderecos](http://localhost:8000/api/enderecos)<br>
+-   [/api/pessoas](http://localhost:8000/api/pessoas)<br>
+-   [/api/ocorrencias](http://localhost:8000/api/ocorrencias)<br>
+-   [/api/contas](http://localhost:8000/api/contas)<br>
+-   [/api/users](http://localhost:8000/api/users)
 
 <br>
 
