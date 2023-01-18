@@ -62,7 +62,7 @@ Senha: root12345
 
 ## 🚀 Modo de uso
 
-Primeiramente, estabeleça suas credenciais no arquivo `.env`, tendo base no [.env_example](.env_example).
+Primeiramente, estabeleça suas credenciais no arquivo `.env`, tendo base no [.env.example](.env.example).
 
 Após criado, rode o Docker Compose:
 
